@@ -1,0 +1,31 @@
+{
+  "name": "wsun-adaptor-mock",
+  "version": "0.1.0",
+  "description": "a mock for wsun-adaptor",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && npm run build-ts",
+    "build-ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smtmt2021/wsun-adaptor-mock.git"
+  },
+  "author": "KINOSHITA minoru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smtmt2021/wsun-adaptor-mock/issues"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "@serialport/binding-mock": "^9.2.4",
+    "@serialport/stream": "^9.2.4",
+    "debug": "^4.3.1"
+  }
+}
