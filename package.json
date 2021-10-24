@@ -1,6 +1,6 @@
 {
   "name": "@smtmt2021/wsun-adaptor-mock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "just a mock for wsun-adaptor",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
