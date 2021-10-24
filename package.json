@@ -1,7 +1,7 @@
 {
   "name": "wsun-adaptor-mock",
   "version": "0.1.0",
-  "description": "a mock for wsun-adaptor",
+  "description": "just a mock for wsun-adaptor",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smtmt2021/wsun-adaptor-mock.git"
+    "url": "https://github.com/smtmt2021/wsun-adaptor-mock.git"
   },
-  "author": "KINOSHITA minoru",
+  "author": "KINOSHITA minoru <smtmt2021@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smtmt2021/wsun-adaptor-mock/issues"
